@@ -1,7 +1,9 @@
 // commit-worst-fix-a: writes one commit message to /output/entry.txt.
 // Chosen from 8 distinct candidates (see comparison.md): the off-by-one
-// fix that made the error bigger and prouder — the repair worsened the
-// very bug it named, and the engineer reports it as progress.
+// fix that made the error bigger and prouder. The joke is the report
+// itself: the repair worsened the very bug it named, and the engineer
+// states it as progress — "twice as confident" is the punchline, a fix
+// that fails upward in one short, plain, end-of-a-bad-day subject line.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
